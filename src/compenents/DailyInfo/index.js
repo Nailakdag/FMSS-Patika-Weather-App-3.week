@@ -36,7 +36,7 @@ const DailyInfo = () => {
           borderRadius="md"
           boxShadow="md"
           textAlign="center"
-          overflow="scroll"
+          overflow="auto"
           flexShrink={0}
         >
           <Text fontWeight="bold" fontSize="lg" mb={{ base: 2, sm: 3 }}>
