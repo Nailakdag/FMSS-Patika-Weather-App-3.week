@@ -7,6 +7,7 @@ import { MainProvider } from "./context/MainContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  // App compenenti Chakra ve MainProvider ile sarıldı.
   <ChakraProvider theme={theme}>
     <MainProvider>
       <App />

@@ -1,3 +1,4 @@
+// Datadan dönen tarihin hangi güne denk geldiğini gösteren fonksiyon
 const getDayName = (dayData) => {
   const now = new Date(dayData);
   const days = [
